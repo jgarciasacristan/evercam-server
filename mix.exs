@@ -61,8 +61,8 @@ defmodule EvercamMedia.Mixfile do
 
   defp deps do
     [
-      {:calendar, "~> 0.16.0"},
-      {:comeonin, "~> 2.4"},
+      {:calendar, "~> 0.17.1"},
+      {:comeonin, "~> 3.0.1"},
       {:con_cache, "~> 0.11.1"},
       {:cors_plug, "~> 1.1"},
       {:cowboy, "~> 1.0"},
@@ -71,7 +71,7 @@ defmodule EvercamMedia.Mixfile do
       {:ecto, "~> 2.0.2"},
       {:exrm, github: "bitwalker/exrm"},
       {:geo, "~> 1.1"},
-      {:httpoison, "~> 0.10.0"},
+      {:httpoison, "~> 0.11.0"},
       {:jsx, "~> 2.8.0", override: true},
       {:mailgun, github: "evercam/mailgun"},
       {:phoenix, "~> 1.2.0-rc.1"},
@@ -86,7 +86,7 @@ defmodule EvercamMedia.Mixfile do
       {:cf, "~> 0.2.1", override: true},
       {:exvcr, "~> 0.7", only: :test},
       {:meck,  "~> 0.8.4", override: :true},
-      {:html_sanitize_ex, "~> 1.0.0"},
+      {:html_sanitize_ex, "~> 1.1.1"},
     ]
   end
 end
