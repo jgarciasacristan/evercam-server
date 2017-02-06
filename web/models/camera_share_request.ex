@@ -102,7 +102,7 @@ defmodule CameraShareRequest do
     share_request_params = %{
       camera_id: camera.id,
       user_id: sharer.id,
-      status: status.pending,
+      status: status().pending,
       email: email,
       rights: rights,
       message: message,
