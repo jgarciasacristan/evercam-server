@@ -18,7 +18,6 @@ defmodule EvercamMedia.ModelCase do
     quote do
       alias EvercamMedia.Repo
       alias EvercamMedia.SnapshotRepo
-      import Ecto.Model
       import Ecto.Query, only: [from: 2]
     end
   end

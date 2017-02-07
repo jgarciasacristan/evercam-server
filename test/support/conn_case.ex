@@ -24,7 +24,6 @@ defmodule EvercamMedia.ConnCase do
       alias EvercamMedia.Repo
       alias EvercamMedia.Message
       alias EvercamMedia.Endpoint
-      import Ecto.Model
       import Ecto.Query, only: [from: 2]
 
       # Import URL helpers from the router
